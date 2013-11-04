@@ -204,7 +204,7 @@ if __name__ == '__main__':
     # Create BezierBuilder
     bezier_builder = BezierBuilder(line, ax2)
 
-    fig.suptitle("Bézier Builder", fontsize=24)
+    fig.suptitle("BézierBuilder", fontsize=24)
     fig.text(0.052, 0.07, "Click to add points, Shift + Click & Drag to move them, "
              "Ctrl + Click to remove them.", color="#333333")
     fig.text(0.052, 0.03, "(c) 2013, Juan Luis Cano Rodríguez. Code available at "
