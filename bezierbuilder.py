@@ -207,7 +207,7 @@ if __name__ == '__main__':
     fig.suptitle("Bézier Builder", fontsize=24)
     fig.text(0.052, 0.07, "Click to add points, Shift + Click & Drag to move them, "
              "Ctrl + Click to remove them.", color="#333333")
-    fig.text(0.052, 0.03, "(c) 2013, Juan Luis Cano Rodríguez. Code available at"
-             "", color="#666666")
+    fig.text(0.052, 0.03, "(c) 2013, Juan Luis Cano Rodríguez. Code available at "
+             "https://github.com/Pybonacci/bezierbuilder/", color="#666666")
     fig.subplots_adjust(left=0.08, top=0.8, right=0.92, bottom=0.2)
     plt.show()
